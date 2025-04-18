@@ -1,0 +1,162 @@
+{
+    "customers": [
+      {
+        "customer_id": "CUST1001",
+        "name": "Rajesh R",
+        "contact": {
+          "email": "rajesh@example.com",
+          "phone": "+91-9876543210"
+        },
+        "accounts": [
+          {
+            "account_number": "SB1234567890",
+            "type": "savings",
+            "bank_name": "ABC Bank",
+            "ifsc": "ABCD0123456",
+            "currency": "INR",
+            "statement_period": {
+              "from": "2025-03-01",
+              "to": "2025-03-31"
+            },
+            "opening_balance": 15000,
+            "closing_balance": 22000,
+            "transactions": [
+              {
+                "txn_id": "TXN1001",
+                "date": "2025-03-02",
+                "description": "Salary Credit",
+                "type": "credit",
+                "amount": 50000,
+                "balance_after": 65000,
+                "category": "Income",
+                "mode": "NEFT"
+              },
+              {
+                "txn_id": "TXN1003",
+                "date": "2025-03-03",
+                "description": "newcredit",
+                "type": "credit",
+                "amount": 50000,
+                "balance_after": 65000,
+                "category": "Income",
+                "mode": "NEFT"
+              },
+              {
+                "txn_id": "TXN1002",
+                "date": "2025-03-05",
+                "description": "Flipkart Purchase",
+                "type": "debit",
+                "amount": 8000,
+                "balance_after": 57000,
+                "category": "Shopping",
+                "mode": "Debit Card"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "customer_id": "CUST1002",
+        "name": "Meena K",
+        "contact": {
+          "email": "meena.k@example.com",
+          "phone": "+91-9123456789"
+        },
+        "accounts": [
+          {
+            "account_number": "CU0987654321",
+            "type": "current",
+            "bank_name": "XYZ Bank",
+            "ifsc": "XYZB0987654",
+            "currency": "INR",
+            "statement_period": {
+              "from": "2025-03-01",
+              "to": "2025-03-31"
+            },
+            "opening_balance": 100000,
+            "closing_balance": 94500,
+            "transactions": [
+              {
+                "txn_id": "TXN2001",
+                "date": "2025-03-10",
+                "description": "Office Supplies",
+                "type": "debit",
+                "amount": 5000,
+                "balance_after": 95000,
+                "category": "Business Expense",
+                "mode": "UPI"
+              },
+              {
+                "txn_id": "TXN2002",
+                "date": "2025-03-25",
+                "description": "Client Payment Received",
+                "type": "credit",
+                "amount": 4500,
+                "balance_after": 99500,
+                "category": "Income",
+                "mode": "Cheque"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "customer_id": "CUST1003",
+        "name": "Sathish M",
+        "contact": {
+          "email": "sathish.m@example.com",
+          "phone": "+91-9012345678"
+        },
+        "accounts": [
+          {
+            "account_number": "SB1112223334",
+            "type": "savings",
+            "bank_name": "HDFC Bank",
+            "ifsc": "HDFC0001234",
+            "currency": "INR",
+            "statement_period": {
+              "from": "2025-03-01",
+              "to": "2025-03-31"
+            },
+            "opening_balance": 30000,
+            "closing_balance": 26750,
+            "transactions": [
+              {
+                "txn_id": "TXN3001",
+                "date": "2025-03-03",
+                "description": "Movie Tickets - BookMyShow",
+                "type": "debit",
+                "amount": 500,
+                "balance_after": 29500,
+                "category": "Entertainment",
+                "mode": "UPI"
+              },
+              {
+                "txn_id": "TXN3002",
+                "date": "2025-03-15",
+                "description": "Mobile Recharge",
+                "type": "debit",
+                "amount": 250,
+                "balance_after": 29250,
+                "category": "Utilities",
+                "mode": "Net Banking"
+              },
+              {
+                "txn_id": "TXN3003",
+                "date": "2025-03-28",
+                "description": "Freelance Payment",
+                "type": "credit",
+                "amount": 2500,
+                "balance_after": 31750,
+                "category": "Income",
+                "mode": "IMPS"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "generated_at": "2025-04-01T10:15:00+05:30",
+    "generated_by": "Bank Statement API v2.0"
+  }
+  

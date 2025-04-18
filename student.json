@@ -1,0 +1,20 @@
+[
+   {
+      "name": "prince",
+      "age": 23,
+      "loc": "kvp"
+   },
+   {
+      "name": "Rajesh",
+      "age": 25,
+      "loc": "Swiss"
+   },
+   {
+      "name": "zuko",
+      "loc": "firenation"
+   },
+   {
+      "name": "Katara",
+      "loc": "water nation"
+   }
+]

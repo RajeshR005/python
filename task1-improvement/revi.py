@@ -61,17 +61,72 @@
 # print(li)
 
 #  Find the Armstrong Number
-n=int(input("Enter the number"))
-temp=n
-sum1=0
-while temp>0:
-    dig=temp%10
-    sum1=sum1+dig**3
-    temp=temp//10
-if sum1==n:
-    print(f"{n}is a Armstrong number")
-else:
-    print(f"{n}is not a Armstrong number")
+# n=int(input("Enter the number"))
+# temp=n
+# sum1=0
+# while temp>0:
+#     dig=temp%10
+#     sum1=sum1+dig**3
+#     temp=temp//10
+# if sum1==n:
+#     print(f"{n}is a Armstrong number")
+# else:
+#     print(f"{n}is not a Armstrong number")
 
+# Exception Handling
+# a="abc"
+# b=1
+# if b>0:
+#     try:
+#         print(int(a))
+#     except:
+#         print("Value error")
+#     finally:
+#         print(f"{a}is in {type(a)}so it is not getting output")
+    
+
+# #Reverse Words in a Sentence
+# str1=input("Enter the string")
+# str2=str1.split()
+# print(' '.join(str2[::-1]))
+
+# convert a decimal number to binary,oct,hex
+# print(bin(10))
+# print(oct(255))
+# print(hex(255))
+
+#  Check if all elements in a list are positive numbers using all() and any()
+# li=[1,2,3,-4]
+# print(all(i>0 for i in li))
+# print(any(li))
+
+# Reverse a List of Integers Taken from User Input
+# str1=input("Enter the string")
+# str2=str1.split()
+# print(' '.join(str2[::-1]))
+
+#  Character Count and Unicode Values
+# Goal:
+
+# Ask the user to input a string.
+
+# Count the number of characters using len().
+
+# For each character, print the character along with its Unicode value using ord().
+
+# Also, convert the Unicode value back to character using chr() to show the round trip.
+
+# str1=input("Enter the string")
+# print(len(str1))
+# li=[]
+# li1=[]
+# for i in str1:
+#     li.append(i)
+#     print(i)
+# for j in li:
+#     print(ord(j))
+#     # li1.append(ord(j))
+
+#     print(chr(ord(j)))
 
 
